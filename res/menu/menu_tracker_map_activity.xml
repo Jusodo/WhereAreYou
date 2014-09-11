@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/tracking"
+        android:showAsAction="always"
+        android:title="Tracking OFF">
+    </item>
+    
+    <item 
+        android:id="@+id/clear_db"
+        android:showAsAction="always"
+        android:title="Clear DB" />
+
+</menu>
