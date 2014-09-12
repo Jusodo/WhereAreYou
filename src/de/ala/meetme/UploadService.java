@@ -23,7 +23,8 @@ public class UploadService extends IntentService {
 
 	private static final String LOGGER = UploadService.class.getSimpleName();
 
-	private final String URL = "http://ala.lima-city.de/addNewLocation.php";
+	// path to the json file
+	private final String URL = "";
 
 	private HttpClient mHttpClient = new DefaultHttpClient();
 	private HttpPost mHttpPost = new HttpPost(URL);
